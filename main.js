@@ -644,14 +644,7 @@ switchParent.onclick = function(){
         switchChange--;
     }
 }
-// if(resultSpeed == 1){
-//     console.log('speed = 1')
-// } else if(resultSpeed == 2){
-//     console.log('speed = 2')
-// } else if(resultSpeed == 3){
-//     console.log('speed = 3')
-// } else if(resultSpeed == 4){
-//     console.log('speed = 4')
-// } else if(resultSpeed == 5){
-//     console.log('speed = 5')
-// }
+
+quitBlock.onclick = function(){
+    window.close();
+}
