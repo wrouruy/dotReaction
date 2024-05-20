@@ -646,5 +646,5 @@ switchParent.onclick = function(){
 }
 
 quitBlock.onclick = function(){
-    window.close();
+    window.location.href = 'https://github.com/wrouruy/dotReaction';
 }
