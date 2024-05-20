@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dotReaction</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css' integrity='sha512-U9Y1sGB3sLIpZm3ePcrKbXVhXlnQNcuwGQJ2WjPjnp6XHqVTdgIlbaDzJXJIAuCTp3y22t+nhI4B88F/5ldjFA==' crossorigin='anonymous'/>
+</head>
+<body>
+    <div id="wrap">
+
+        
+
+        <h1 id="comment">catch the target!</h1>
+
+        <div class="target" id="target"></div>
+        <div class="falseTargetOne" id="falseTargetOne"><h3>false</h3></div>
+        <div class="falseTargetTwo" id="falseTargetTwo"><h3>false</h3></div>
+        <div class="falseTargetThree" id="falseTargetThree"><h3>false</h3></div>
+
+        <div id="heartSystem"><i class="fa-solid fa-heart" id="firstHeart"></i>  <i class="fa-regular fa-heart" id="noneFirstHeart"></i>     <i class="fa-solid fa-heart" id="secondHeart"></i>   <i class="fa-regular fa-heart" id="noneSecondHeart"></i>   <i class="fa-solid fa-heart" id="thirtHeart"></i>   <i class="fa-regular fa-heart"  id="noneThirtHeart"></i></div>
+
+        <div class="menu" id="menu">
+            <div class="menuHeader">
+                 <div class="menuBtn" id="menuBtn">
+                    <i class="fa-solid fa-pause" id="pause"></i> <i class="fa-solid fa-play" id="play"></i></i>
+                 </div>
+            </div>
+
+            <div class="quit"><h1>quit</h1><i class="fa-solid fa-right-to-bracket" id="quit"></i></div>
+
+            <h3>Налаштування</h3>
+            
+
+            <div class="settingDouble">
+                <div>Кількість здоров'я</div>
+                <div class="boxForBTN">
+                    <button type="button" id="oneHeart">1</button>
+                    <button type="button" id="twoHeart">2</button>
+                    <button type="button" id="threeHeart">3</button>
+                    <button type="button" id="infinityHeart">необм.</button>
+                </div>
+            </div>
+            <div class="settingDouble">
+                <div>Чорна тема</div>
+                <div id="switchParent"><div id="switchBox"></div></div>
+            </div>
+            <div class="settingThirt">
+                <div>Складність</div>
+                <div class="boxForBTN">
+                    <button type="button" id="buttonHardZero">0</button>
+                    <button type="button" id="buttonHardOne">1</button>
+                    <button type="button" id="buttonHardTwo">2</button>
+                    <button type="button" id="buttonHardThree">3</button>
+                </div>
+            </div>
+            <!-- <div class="settingThirt">
+                <div>Затримка</div>
+                <div class="boxForBTN">
+                    <input type="range" min="0" max="5" step="1" id="speedTarget">
+                </div>
+            </div> -->
+        </div>
+
+        <div id="winWrap">
+            <div id="wonBlock"><i class="fa-solid fa-crown" id="crown"></i>   <p>you win!</p>     <button type="button" id="winButton">play again?</button></div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
